@@ -35,7 +35,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="First" />
+            android:text="First"
+            android:onClick="showFirst"/>/>
 
         <Button
             android:id="@+id/Btn2"
@@ -52,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Third" />
+            android:text="Third"
+            android:onClick="showThird"/>/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

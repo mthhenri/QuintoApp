@@ -14,9 +14,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    fun showFirst(view: View) {
+        supportFragmentManager.commit {
+            replace<FirstFragment>(R.id.fragmentContainerView4)
+        }
+    }
     fun showSecond(view: View) {
         supportFragmentManager.commit {
             replace<SecondFragment>(R.id.fragmentContainerView4)
         }
     }
+    fun showThird(view: View) {
+        supportFragmentManager.commit {
+            replace<ThirdFragment>(R.id.fragmentContainerView4)
+        }
+    }
+
 }
